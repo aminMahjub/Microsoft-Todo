@@ -76,11 +76,47 @@ aside {
 
 .task-container {
     font-size: 17px;
+    font-weight: 400;
 }
 
 .defualt-tasks {
     margin-top: 20px;
     border-bottom: 1px solid $grayWhite;
+}
+
+.list-action {
+    background: {
+        repeat: no-repeat;
+        size: 20px;
+        position: 5px;
+    }
+    padding-left: 38px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.list-action:hover {
+    background-color: $hoverList;
+} 
+
+.my-day-item {
+    background-image: url('../icons/icons8-sun.svg');
+}
+
+.tasks-item {
+    background-image: url('../icons/icons8-home.svg');
+}
+
+.created-tasks {
+    margin-top: 8px;
+}
+
+.tasks-list {
+    background-image: url('../icons/icons8-menu.svg');
 }
 
 main {
