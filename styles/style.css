@@ -79,6 +79,7 @@ aside {
   font-weight: 600;
   font-size: 13px;
   padding: 15px 10px;
+  position: relative;
 }
 
 .user-account-container {
@@ -198,6 +199,17 @@ aside {
 
 .tasks-list {
   background-image: url("../icons/icons8-menu.svg");
+}
+
+.add-list-group-container {
+  position: absolute;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main {
